@@ -1,0 +1,46 @@
+fieldset {
+    clear: both;
+    margin-bottom: 10px;
+    background-color: #eee;
+    max-width:960px;
+}
+
+
+p label {
+    display: block;
+    width: 180px;
+    float: left;
+}
+
+.profileImg{
+    width:auto;
+    height:auto;
+    max-width:50px;
+    max-height:50px;
+}
+
+.littleWord{
+    font-size: 0.73em;
+}
+
+.error {
+    color:red;
+}
+
+.haedDiv{
+    height:100%;
+}
+
+.errorMessage{
+    color:rgb(240, 183, 181);
+}
+
+#emailLittle{
+    display: block;
+    margin-left: 186px;
+
+}
+
+.highlightYellow{
+    box-shadow: 0 .35em 0 0 orange, 0 .35em 0 0 
+}

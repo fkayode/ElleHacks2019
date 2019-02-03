@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    margin:0px;
+    background-color:#eeeeee;
+    color:#333;
+}
+
+header{
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:0px;
+    color:#454545;
+    background-color:#898989;
+    border:solid 1px #000;
+    text-align:center;
+}
+
+footer{
+    clear: both;
+    padding: 15px 10px 15px 10px;
+    background-color: #eeeeee;
+    border-top: solid 1px #cccccc;
+    font-size: 13px;
+    border: #000 solid 1px;    
+    color: #eee;
+    text-align: left;
+    background-color:#787878;
+    font-size: 95%;
+    vertical-align:middle;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.main-container header h1{
+    width: 70%;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+    margin-right:170px;
+}
+
+.main-container{
+    max-width: 1000px;
+    margin: 0px auto 0px auto;
+    overflow-x: hidden;
+    min-height: 100%;
+    position:relative;
+    padding-bottom: 40px;
+}
+
+.main-container .main{
+    margin:2% 0% 2% 15%;
+    width: 690px;
+}
+
+.center{
+    max-width:960px;
+	margin:0 auto;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.formNameCenter{
+    padding-left:28%;
+}
+
+.sidePanel{
+    width:25%;
+    float:right;
+    background-color: #585858;
+    border:#000 solid 1px;
+    margin:5px 0px 5px 5px;
+}
+
+.sidePanelSide{
+    margin:3px;
+}
+
+.middle{
+    text-align:center;
+    color:#ddd;
+    margin:5px;
+}
+
+.middleBody{
+    display: block;
+    width: 186px;
+    float: left;
+
+}
+
+#logo{
+    width: 30%;
+
+}
+
+#logo img{
+    width: 94px;
+    vertical-align: middle;
+    margin-left: -20px;
+}
+
+.profileImg{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    display:block;
+    overflow:hidden;
+}
+
+.policy{
+    font-weight: bold;
+}
+
+.right{
+    float:right;
+    margin: 10px;
+}
